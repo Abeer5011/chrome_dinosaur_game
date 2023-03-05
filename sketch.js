@@ -80,7 +80,7 @@ function gameOn() {
 
 function gameOver() {
   noLoop()
-  text("Game over", width / 2, height / 6)
+  text("Game Over", width / 2, height / 6)
   text("Your Level is:", width / 2, height / 4)
   text(parseInt(Bird.levelUp), width / 2, height / 3)
   button.show()
