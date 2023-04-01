@@ -9,9 +9,9 @@ class Car {
   }
 
   static setLevel(count) {
-    let level = count % Car.levelUp
+    let levels = count % Car.levelUp
 
-    level
+    levels
   }
 
   move() {
